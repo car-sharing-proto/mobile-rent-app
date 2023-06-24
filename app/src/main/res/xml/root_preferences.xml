@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/theme">
+        <ListPreference
+            android:defaultValue="default"
+            android:dialogTitle="@string/choose_theme"
+            android:entries="@array/entries_theme"
+            android:entryValues="@array/entries_values_theme"
+            android:key="@string/theme_key"
+            android:summary="@string/info_change_theme"
+            android:title="@string/theme" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
