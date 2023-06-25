@@ -3,6 +3,18 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <color name="color_icon_light">#273469</color>
-    <color name="color_icon_dark">#FFFFFFFF</color>
+    <color name="icon_light">#273469</color>
+    <color name="icon_dark">#FFFFFF</color>
+
+    <color name="background_light">#F4FAFF</color>
+    <color name="background_dark">#0F0F0F</color>
+
+    <color name="text_light">#273469</color>
+    <color name="text_dark">#FFFFFF</color>
+
+    <color name="bnv_light">#FFFFFF</color>
+    <color name="bnv_dark">#2B2C34</color>
+
+    <color name="ripple_color_light">#19346AFC</color>
+    <color name="ripple_color_dark">#000000</color>
 </resources>

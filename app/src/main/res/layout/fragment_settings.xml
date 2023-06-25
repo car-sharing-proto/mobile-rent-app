@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
+<LinearLayout android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-</PreferenceScreen>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/title_themes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="@string/themes"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_themes"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        tools:listitem="@layout/item_theme"
+        tools:itemCount="3"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

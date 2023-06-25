@@ -7,6 +7,7 @@
     <string name="choose_theme">Выберите тему:</string>
     <string name="theme_key">theme</string>
     <string name="info_change_theme">Вы можете выбрать тему в приложении</string>
+    <string name="themes">Темы</string>
 
     <string-array name="entries_theme">
         <item>Системная</item>
@@ -15,8 +16,8 @@
     </string-array>
 
     <string-array name="entries_values_theme">
-        <item>default</item>
-        <item>dark</item>
+        <item>system</item>
         <item>light</item>
+        <item>dark</item>
     </string-array>
 </resources>
